@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private float calculation() {
         // создание и инициализация переменной подсчёта стоимости
         float count = (coat * (100 - coatDiscount) + hat * (100 - hatDiscount)
-                + businessCostume * (100 - businessCostumeDiscount) + shirt
+                + businessCostume * (100 - businessCostumeDiscount) + shirt * 100
                 + shoes * (100 - shoesDiscount)) / 100;
         return count; // возврат подсчитанного значения
     }
